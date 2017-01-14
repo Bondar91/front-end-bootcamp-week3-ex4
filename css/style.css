@@ -1,0 +1,18 @@
+.center-block {
+	float: none;
+	margin: 0 auto;
+}
+
+.ng-dirty.ng-invalid,
+.ng-touched.ng-invalid {
+	border-color: red;
+}
+
+.ng-dirty.ng-valid {
+	border-color: green;
+}
+
+.ng-dirty.ng-invalid.checkbox,
+.err {
+	color: red;
+}
